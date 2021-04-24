@@ -21,23 +21,25 @@ section{
     display: flex;
     flex-direction: column;
     width: 330px;
-    height: 430px;
-    padding: 45px;
+    min-height: 430px;
+    padding: 45px ;
     background-color: hsl(31, 77%, 52%);
+    /* justify-content: space-between; */
 }
 h2{
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
     font-size: 40px;
-    padding-bottom: 36px;
+    padding-bottom: 40px;
     margin: 0;
     
 }
 
 p{
-    padding-bottom: 20px;
-    padding: 0;
+    /* border: 1px solid red; */
+    margin-bottom: 55px;
+    height: 100px;
 }
 
 .card:first-child{
@@ -68,6 +70,37 @@ button {
     border-radius: 100px;
     border-style: none;
     outline: none;
+    color: black;
+    mix-blend-mode: screen;
+    font-weight: 400;
+    letter-spacing: .4px;
+    font-size: 14px;
     background-color: hsl(0, 0%, 95%);
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
+
+button:hover{
+    background: black;
+    mix-blend-mode: screen;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media only screen and (min-width: 995px) {
+
+    section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-height:80vh;
+    }
+    .card{
+        height: 450px;
+    }
+    .card:first-child{
+        border-radius: 10px 0 0 10px;
+    }
+    .card:last-child{
+        border-radius:0  10px 10px 0;
+    }
+  }
