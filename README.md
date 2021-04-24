@@ -17,7 +17,7 @@ Users should be able to:
 
 
 ### Links
-- Source: [github.com/fmb-blogr-landing](https://github.com/brendantfinn/fmb-three-column)
+- Source: [github.com/fmb-three-column](https://github.com/brendantfinn/fmb-three-column)
 - Demo: [fmb-blogr.netlify.app](https://www.https://fmb-three-column.netlify.app/)
 
 ### Built with
